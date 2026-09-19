@@ -1,0 +1,6 @@
+/* Extra birthday decorations, kept behind the message so the page stays readable. */
+.celebration-decor{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none}.decor{position:absolute;left:var(--left);top:var(--top);opacity:.8;animation:celebrate-float var(--duration) ease-in-out infinite var(--delay)}.decor-heart{color:#ff9cc4;font-size:var(--size);text-shadow:0 0 17px rgba(255,131,181,.7)}.decor-flower{color:#ffd6a8;font-size:var(--size);text-shadow:0 0 17px rgba(255,204,145,.55)}.decor-balloon{width:var(--size);height:calc(var(--size) * 1.22);border-radius:50% 50% 47% 47%;background:linear-gradient(135deg,#ffd1df,#e2639a);box-shadow:inset -7px -8px 15px rgba(132,34,81,.18)}.decor-balloon:after{content:"";position:absolute;left:50%;top:100%;width:1px;height:46px;background:rgba(255,255,255,.5)}@keyframes celebrate-float{50%{transform:translateY(-25px) rotate(8deg)}}
+@media(max-width:680px){.decor:nth-child(n+11){display:none}}
+
+/* Keep every supplied portrait neatly inside its polaroid frame. */
+.gallery .photo-card{overflow:hidden}.gallery .photo-card img{height:auto;aspect-ratio:1/.89;object-fit:contain;object-position:center;background:#f7dbe4}.birthday-daiya{display:inline-block;color:#ffc1a4;font:italic .42em/1 "Playfair Display",Georgia,serif;letter-spacing:-.02em;text-transform:none;text-shadow:0 0 24px rgba(255,193,164,.45)}
